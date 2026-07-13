@@ -1,31 +1,31 @@
-<!-- ⚡ K.A.I.R.O.S. v4 — agent dashboard of Prakhar Singh · theme: TOKYO NIGHT -->
+<!-- ⚡ K.A.I.R.O.S. v5 — agent dashboard of Prakhar Singh · aurora theme (v3 restored) -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16161E,35:1A1B27,70:414868,100:7AA2F7&height=220&section=header&text=PRAKHAR%20SINGH&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=K.A.I.R.O.S.%20%2F%2F%20AGENT%20DASHBOARD%20v4&descSize=17&descAlignY=56&stroke=7AA2F7&strokeWidth=1" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D001A,30:2A0E61,65:7C3AED,100:00D4FF&height=220&section=header&text=PRAKHAR%20SINGH&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=K.A.I.R.O.S.%20%2F%2F%20AGENT%20DASHBOARD%20ONLINE&descSize=17&descAlignY=56&stroke=00D4FF&strokeWidth=1" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=820&lines=BOOTING+K.A.I.R.O.S...;Knowledge-Aligned+Intelligent+Reasoning+%26+Orchestration+System;The+right+action.+At+the+right+moment.;Prakhar+Singh+%E2%80%94+AI+Engineer+%40+Ethara+AI" alt="typing intro"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=820&lines=BOOTING+K.A.I.R.O.S...;Knowledge-Aligned+Intelligent+Reasoning+%26+Orchestration+System;The+right+action.+At+the+right+moment.;Prakhar+Singh+%E2%80%94+AI+Engineer+%40+Ethara+AI" alt="typing intro"/>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Sinprakhar01&color=bb9af7&style=for-the-badge&label=TEMPORAL+SCANS" alt="profile views"/>
-<a href="https://github.com/Sinprakhar01?tab=followers"><img src="https://img.shields.io/github/followers/Sinprakhar01?style=for-the-badge&logo=github&color=7AA2F7&labelColor=1A1B27&label=FOLLOW+THE+SIGNAL" alt="followers"/></a>
+<img src="https://komarev.com/ghpvc/?username=Sinprakhar01&color=7C3AED&style=for-the-badge&label=TEMPORAL+SCANS" alt="profile views"/>
+<a href="https://github.com/Sinprakhar01?tab=followers"><img src="https://img.shields.io/github/followers/Sinprakhar01?style=for-the-badge&logo=github&color=00D4FF&labelColor=0D1117&label=FOLLOW+THE+SIGNAL" alt="followers"/></a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:BB9AF7,50:7AA2F7,100:73DACA&height=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:00D4FF,100:FFD700&height=3" width="100%"/>
 
 ## `> SYSTEM BOOT`
 
 ```console
-> KAIROS AGENT RUNTIME — build 2026.07 // dashboard v4
+> KAIROS AGENT RUNTIME — build 2026.07
 > Waking agent: K.A.I.R.O.S. ......................✓
 > Operator authenticated: PRAKHAR SINGH ...........✓  [AI ENGINEER @ ETHARA AI]
 > Base of operations: Gurugram, Haryana, IN .......✓
-> Theme engine: TOKYO-NIGHT loaded ................✓
 > Loading policy weights: RLHF-tuned ..............✓
 > Mounting long-horizon memory: 26 repositories ...✓
 > Binding tool registry ...........................✓
+> Rendering holo-dashboard ........................✓
 > Eval harness: PASSING
 > Chronos measures time. Kairos seizes it.
 > Agent online. Awaiting the opportune moment...
@@ -49,7 +49,7 @@ agent:
   status:        "🌏 exploring"
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:BB9AF7,50:7AA2F7,100:73DACA&height=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:00D4FF,100:FFD700&height=3" width="100%"/>
 
 ## `> CAPABILITY MATRIX`
 
@@ -58,19 +58,19 @@ agent:
 
 ### ⚗️ Training & Alignment
 
-<a href="https://huggingface.co/blog/rlhf"><img src="https://img.shields.io/badge/RLHF-BB9AF7?style=for-the-badge&labelColor=1A1B27" alt="RLHF"/></a> <a href="https://arxiv.org/abs/2411.15124"><img src="https://img.shields.io/badge/RLVR-BB9AF7?style=for-the-badge&labelColor=1A1B27" alt="RLVR"/></a> <a href="https://huggingface.co/docs/trl/sft_trainer"><img src="https://img.shields.io/badge/SFT-BB9AF7?style=for-the-badge&labelColor=1A1B27" alt="SFT"/></a> <a href="https://arxiv.org/abs/2305.18290"><img src="https://img.shields.io/badge/DPO-BB9AF7?style=for-the-badge&labelColor=1A1B27" alt="DPO"/></a> <a href="https://huggingface.co/docs/trl/reward_trainer"><img src="https://img.shields.io/badge/Reward_Modeling-BB9AF7?style=for-the-badge&labelColor=1A1B27" alt="Reward Modeling"/></a> <a href="https://huggingface.co/docs/peft/index"><img src="https://img.shields.io/badge/Fine--tuning_%7C_LoRA_%2F_PEFT-BB9AF7?style=for-the-badge&labelColor=1A1B27" alt="LoRA / PEFT"/></a>
+<a href="https://huggingface.co/blog/rlhf"><img src="https://img.shields.io/badge/RLHF-6E40C9?style=for-the-badge" alt="RLHF"/></a> <a href="https://arxiv.org/abs/2411.15124"><img src="https://img.shields.io/badge/RLVR-6E40C9?style=for-the-badge" alt="RLVR"/></a> <a href="https://huggingface.co/docs/trl/sft_trainer"><img src="https://img.shields.io/badge/SFT-6E40C9?style=for-the-badge" alt="SFT"/></a> <a href="https://arxiv.org/abs/2305.18290"><img src="https://img.shields.io/badge/DPO-6E40C9?style=for-the-badge" alt="DPO"/></a> <a href="https://huggingface.co/docs/trl/reward_trainer"><img src="https://img.shields.io/badge/Reward_Modeling-6E40C9?style=for-the-badge" alt="Reward Modeling"/></a> <a href="https://huggingface.co/docs/peft/index"><img src="https://img.shields.io/badge/Fine--tuning_%7C_LoRA_%2F_PEFT-6E40C9?style=for-the-badge" alt="LoRA / PEFT"/></a>
 
 ### 🔁 Agentic Systems
 
-<a href="https://www.anthropic.com/research/building-effective-agents"><img src="https://img.shields.io/badge/Agent_Loop_Engineering-7AA2F7?style=for-the-badge&labelColor=1A1B27" alt="Loop Engineering"/></a> <a href="https://metr.org"><img src="https://img.shields.io/badge/Long--Horizon_Benchmarks-7AA2F7?style=for-the-badge&labelColor=1A1B27" alt="Long-Horizon Benchmarks"/></a> <a href="https://www.swebench.com"><img src="https://img.shields.io/badge/SWE--bench_%2F_Multi--SWE--bench-7AA2F7?style=for-the-badge&labelColor=1A1B27" alt="SWE-bench"/></a> <a href="https://platform.openai.com/docs/guides/function-calling"><img src="https://img.shields.io/badge/Tool_Use_%2F_Function_Calling-7AA2F7?style=for-the-badge&labelColor=1A1B27" alt="Tool Use"/></a> <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-7AA2F7?style=for-the-badge&labelColor=1A1B27" alt="MCP"/></a> <a href="https://langchain-ai.github.io/langgraph/"><img src="https://img.shields.io/badge/Multi--Agent_Orchestration-7AA2F7?style=for-the-badge&labelColor=1A1B27" alt="Multi-Agent Orchestration"/></a> <a href="https://lilianweng.github.io/posts/2023-06-23-agent/"><img src="https://img.shields.io/badge/Planning_%26_Reflection-7AA2F7?style=for-the-badge&labelColor=1A1B27" alt="Planning and Reflection"/></a> <a href="https://langchain-ai.github.io/langgraph/concepts/memory/"><img src="https://img.shields.io/badge/Agent_Memory_Systems-7AA2F7?style=for-the-badge&labelColor=1A1B27" alt="Memory Systems"/></a>
+<a href="https://www.anthropic.com/research/building-effective-agents"><img src="https://img.shields.io/badge/Agent_Loop_Engineering-1F6FEB?style=for-the-badge" alt="Loop Engineering"/></a> <a href="https://metr.org"><img src="https://img.shields.io/badge/Long--Horizon_Benchmarks-1F6FEB?style=for-the-badge" alt="Long-Horizon Benchmarks"/></a> <a href="https://www.swebench.com"><img src="https://img.shields.io/badge/SWE--bench_%2F_Multi--SWE--bench-1F6FEB?style=for-the-badge" alt="SWE-bench"/></a> <a href="https://platform.openai.com/docs/guides/function-calling"><img src="https://img.shields.io/badge/Tool_Use_%2F_Function_Calling-1F6FEB?style=for-the-badge" alt="Tool Use"/></a> <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-1F6FEB?style=for-the-badge" alt="MCP"/></a> <a href="https://langchain-ai.github.io/langgraph/"><img src="https://img.shields.io/badge/Multi--Agent_Orchestration-1F6FEB?style=for-the-badge" alt="Multi-Agent Orchestration"/></a> <a href="https://lilianweng.github.io/posts/2023-06-23-agent/"><img src="https://img.shields.io/badge/Planning_%26_Reflection-1F6FEB?style=for-the-badge" alt="Planning and Reflection"/></a> <a href="https://langchain-ai.github.io/langgraph/concepts/memory/"><img src="https://img.shields.io/badge/Agent_Memory_Systems-1F6FEB?style=for-the-badge" alt="Memory Systems"/></a>
 
 ### 🧠 LLM Engineering
 
-<a href="https://huggingface.co/docs/transformers/index"><img src="https://img.shields.io/badge/LLMs-73DACA?style=for-the-badge&labelColor=1A1B27" alt="LLMs"/></a> <a href="https://python.langchain.com/docs/tutorials/rag/"><img src="https://img.shields.io/badge/RAG-73DACA?style=for-the-badge&labelColor=1A1B27" alt="RAG"/></a> <a href="https://faiss.ai"><img src="https://img.shields.io/badge/Vector_Search_%26_Embeddings-73DACA?style=for-the-badge&labelColor=1A1B27" alt="Vector Search"/></a> <a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"><img src="https://img.shields.io/badge/Context_Engineering-73DACA?style=for-the-badge&labelColor=1A1B27" alt="Context Engineering"/></a> <a href="https://www.promptingguide.ai"><img src="https://img.shields.io/badge/Prompt_Engineering-73DACA?style=for-the-badge&labelColor=1A1B27" alt="Prompt Engineering"/></a> <a href="https://github.com/openai/evals"><img src="https://img.shields.io/badge/Evals_%26_Benchmarking-73DACA?style=for-the-badge&labelColor=1A1B27" alt="Evals"/></a> <a href="https://docs.vllm.ai"><img src="https://img.shields.io/badge/Inference_Optimization-73DACA?style=for-the-badge&labelColor=1A1B27" alt="Inference Optimization"/></a>
+<a href="https://huggingface.co/docs/transformers/index"><img src="https://img.shields.io/badge/LLMs-0598BC?style=for-the-badge" alt="LLMs"/></a> <a href="https://python.langchain.com/docs/tutorials/rag/"><img src="https://img.shields.io/badge/RAG-0598BC?style=for-the-badge" alt="RAG"/></a> <a href="https://faiss.ai"><img src="https://img.shields.io/badge/Vector_Search_%26_Embeddings-0598BC?style=for-the-badge" alt="Vector Search"/></a> <a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"><img src="https://img.shields.io/badge/Context_Engineering-0598BC?style=for-the-badge" alt="Context Engineering"/></a> <a href="https://www.promptingguide.ai"><img src="https://img.shields.io/badge/Prompt_Engineering-0598BC?style=for-the-badge" alt="Prompt Engineering"/></a> <a href="https://github.com/openai/evals"><img src="https://img.shields.io/badge/Evals_%26_Benchmarking-0598BC?style=for-the-badge" alt="Evals"/></a> <a href="https://docs.vllm.ai"><img src="https://img.shields.io/badge/Inference_Optimization-0598BC?style=for-the-badge" alt="Inference Optimization"/></a>
 
 ### 👁️ Multimodal
 
-<a href="https://huggingface.co/blog/vlms"><img src="https://img.shields.io/badge/Vision--Language_Models-F7768E?style=for-the-badge&labelColor=1A1B27" alt="VLMs"/></a> <a href="https://huggingface.co/tasks"><img src="https://img.shields.io/badge/Multimodal_Pipelines-F7768E?style=for-the-badge&labelColor=1A1B27" alt="Multimodal"/></a> <a href="https://arxiv.org/abs/1406.2661"><img src="https://img.shields.io/badge/GANs-F7768E?style=for-the-badge&labelColor=1A1B27" alt="GANs"/></a> <a href="https://paperswithcode.com/task/deepfake-detection"><img src="https://img.shields.io/badge/Deepfake_Detection-F7768E?style=for-the-badge&labelColor=1A1B27" alt="Deepfake Detection"/></a> <a href="https://spacy.io"><img src="https://img.shields.io/badge/NLP_%7C_spaCy-F7768E?style=for-the-badge&labelColor=1A1B27" alt="NLP"/></a>
+<a href="https://huggingface.co/blog/vlms"><img src="https://img.shields.io/badge/Vision--Language_Models-BF3989?style=for-the-badge" alt="VLMs"/></a> <a href="https://huggingface.co/tasks"><img src="https://img.shields.io/badge/Multimodal_Pipelines-BF3989?style=for-the-badge" alt="Multimodal"/></a> <a href="https://arxiv.org/abs/1406.2661"><img src="https://img.shields.io/badge/GANs-BF3989?style=for-the-badge" alt="GANs"/></a> <a href="https://paperswithcode.com/task/deepfake-detection"><img src="https://img.shields.io/badge/Deepfake_Detection-BF3989?style=for-the-badge" alt="Deepfake Detection"/></a> <a href="https://spacy.io"><img src="https://img.shields.io/badge/NLP_%7C_spaCy-BF3989?style=for-the-badge" alt="NLP"/></a>
 
 <br/>
 
@@ -104,22 +104,26 @@ agent:
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:BB9AF7,50:7AA2F7,100:73DACA&height=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:00D4FF,100:FFD700&height=3" width="100%"/>
 
 ## `> TELEMETRY`
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sinprakhar01&show_icons=true&hide_border=true&theme=tokyonight" alt="github stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sinprakhar01&layout=compact&hide_border=true&theme=tokyonight" alt="top languages"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sinprakhar01&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=00D4FF&text_color=C9D1D9&ring_color=7C3AED" alt="github stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sinprakhar01&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" alt="top languages"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true" alt="streak stats"/>
+<img src="https://streak-stats.demolab.com?user=Sinprakhar01&hide_border=true&background=0D1117&ring=7C3AED&fire=FFD700&currStreakLabel=A78BFA&sideLabels=C9D1D9&currStreakNum=FFD700&sideNums=00D4FF&dates=8B949E" alt="streak stats"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&bg_color=0D1117&color=A78BFA&line=FFD700&point=00D4FF&area=true&area_color=7C3AED&hide_border=true&custom_title=KAIROS%20TEMPORAL%20ACTIVITY%20STREAM" width="95%" alt="activity graph"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:BB9AF7,50:7AA2F7,100:73DACA&height=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:00D4FF,100:FFD700&height=3" width="100%"/>
 
 ## `> MISSION LOG`
 
@@ -132,26 +136,11 @@ agent:
 | [`OP-WINTERSPIRIT`](https://github.com/Sinprakhar01/winter-spirit-game) | Holo-simulation entertainment deck | `TypeScript` | ✅ |
 | [`OP-VAULT`](https://github.com/Sinprakhar01/Password_Manager) | Zero-trust secret storage unit | `Python` | ✅ |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:BB9AF7,50:7AA2F7,100:73DACA&height=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:00D4FF,100:FFD700&height=3" width="100%"/>
 
 ## `> MEMORY CONSOLIDATION`
 
-<div align="center"><samp>commit history — stable heatmap first, live signals below</samp></div>
-<br/>
-
 <div align="center">
-
-**⧉ CONTRIBUTION HEATMAP — GitHub-native calendar · month labels · rolling 12 months**
-
-<a href="https://github.com/Sinprakhar01"><img src="https://ghchart.rshah.org/7AA2F7/Sinprakhar01" width="95%" alt="contribution heatmap (static, GitHub-style)"/></a>
-
-<br/><br/>
-
-**⧉ ACTIVITY WAVEFORM — 31-day commit signal with dated axis**
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&area=true&custom_title=KAIROS%20TEMPORAL%20ACTIVITY%20STREAM" width="95%" alt="activity graph"/>
-
-<br/>
 
 **⧉ MEMORY INGESTION — one commit at a time**
 
@@ -163,13 +152,11 @@ agent:
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:BB9AF7,50:7AA2F7,100:73DACA&height=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:00D4FF,100:FFD700&height=3" width="100%"/>
 
 ## `> ACHIEVEMENTS UNLOCKED`
 
 ### 🏅 Official GitHub Achievements
-
-<div align="center">
 
 | BADGE | ACHIEVEMENT | UNLOCK CONDITION | VERIFY |
 |:-----:|:------------|:-----------------|:------:|
@@ -177,22 +164,20 @@ agent:
 
 <sub>more incoming: Pull Shark 🦈 · YOLO 🎲 · Galaxy Brain 🧠 — missions in progress</sub>
 
-</div>
-
 ### 🎖️ KAIROS Field Commendations
 
 | 🎖️ | ACHIEVEMENT | UNLOCK CONDITION | RARITY |
 |:---:|:------------|:-----------------|:------:|
-| 👁️ | **Reality Auditor** | Shipped deepfake detection with SwinGAN | ![EPIC](https://img.shields.io/badge/EPIC-BB9AF7?style=flat-square&labelColor=1A1B27) |
-| 🧪 | **Benchmark Hunter** | Runs long-horizon eval harnesses — SWE-bench & Multi-SWE-bench | ![EPIC](https://img.shields.io/badge/EPIC-BB9AF7?style=flat-square&labelColor=1A1B27) |
-| 🌐 | **Polyglot Protocol** | Shipped code in 7+ programming languages | ![RARE](https://img.shields.io/badge/RARE-7AA2F7?style=flat-square&labelColor=1A1B27) |
-| 🐍 | **Snake Charmer** | Automated a self-feeding contribution snake | ![UNCOMMON](https://img.shields.io/badge/UNCOMMON-73DACA?style=flat-square&labelColor=1A1B27) |
-| 🔐 | **Vault Keeper** | Built a zero-trust password manager | ![UNCOMMON](https://img.shields.io/badge/UNCOMMON-73DACA?style=flat-square&labelColor=1A1B27) |
-| ⏳ | **KAIROS ONLINE** | Deployed a fully agentic profile OS | ![LEGENDARY](https://img.shields.io/badge/LEGENDARY-E0AF68?style=flat-square&labelColor=1A1B27) |
+| 👁️ | **Reality Auditor** | Shipped deepfake detection with SwinGAN | ![EPIC](https://img.shields.io/badge/EPIC-6E40C9?style=flat-square) |
+| 🧪 | **Benchmark Hunter** | Runs long-horizon eval harnesses — SWE-bench & Multi-SWE-bench | ![EPIC](https://img.shields.io/badge/EPIC-6E40C9?style=flat-square) |
+| 🌐 | **Polyglot Protocol** | Shipped code in 7+ programming languages | ![RARE](https://img.shields.io/badge/RARE-1F6FEB?style=flat-square) |
+| 🐍 | **Snake Charmer** | Automated a self-feeding contribution snake | ![UNCOMMON](https://img.shields.io/badge/UNCOMMON-0598BC?style=flat-square) |
+| 🔐 | **Vault Keeper** | Built a zero-trust password manager | ![UNCOMMON](https://img.shields.io/badge/UNCOMMON-0598BC?style=flat-square) |
+| ⏳ | **KAIROS ONLINE** | Deployed a fully agentic profile OS | ![LEGENDARY](https://img.shields.io/badge/LEGENDARY-FFD700?style=flat-square) |
 
 <div align="center"><samp>this agent improves via human feedback — starring a repo sends +1 reward to the policy ⭐</samp></div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:BB9AF7,50:7AA2F7,100:73DACA&height=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:00D4FF,100:FFD700&height=3" width="100%"/>
 
 ## `> COMM PROTOCOLS`
 
@@ -210,6 +195,6 @@ agent:
 > K.A.I.R.O.S. standing by...
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7AA2F7,35:414868,70:1A1B27,100:16161E&height=140&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,35:7C3AED,70:2A0E61,100:0D001A&height=140&section=footer" width="100%"/>
 
 </div>
