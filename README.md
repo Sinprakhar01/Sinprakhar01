@@ -147,7 +147,10 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 <div align="center">
 
 <img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" alt="GitHub stats" height="180" />
-<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=donut&card_width=340" alt="Language donut chart" height="180" />
+
+<a href="https://github.com/Sinprakhar01?tab=overview" title="Open interactive dashboard — hover for per-day details">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sinprakhar01&theme=tokyonight" alt="Profile dashboard: contribution timeline and totals" width="100%" />
+</a>
 
 <img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true&background=00000000" alt="Streak" />
 
@@ -156,7 +159,9 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
   <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution chart" width="100%" />
 </picture>
 
+<a href="https://github.com/Sinprakhar01?tab=overview" title="Open interactive history — hover shows exact dates and commit counts">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true" alt="Contribution activity graph" />
+</a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sinprakhar01/Sinprakhar01/output/github-contribution-grid-snake-dark.svg" />
