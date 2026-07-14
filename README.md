@@ -95,8 +95,8 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" alt="GitHub stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=pie&langs_count=8" alt="Language pie chart" height="165" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" alt="GitHub stats" height="165" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=pie&langs_count=8" alt="Language pie chart" height="165" />
 
 <img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true&background=00000000" alt="Streak" />
 
