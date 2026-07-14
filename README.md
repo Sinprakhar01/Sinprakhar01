@@ -192,12 +192,21 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 
 <table>
 <tr>
-<td align="center" valign="middle" width="50%"><img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&hide_rank=true" alt="GitHub stats" /></td>
-<td align="center" valign="middle" width="50%"><img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=pie&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5" alt="Most used languages pie chart" /></td>
+<td align="center" valign="middle" width="50%"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&hide_rank=true" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=default&hide_border=true&bg_color=00000000&hide_rank=true" alt="GitHub stats" />
+</picture></td>
+<td align="center" valign="middle" width="50%"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=pie&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=default&hide_border=true&bg_color=00000000&layout=pie&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5" alt="Most used languages pie chart" />
+</picture></td>
 </tr>
 </table>
 
-<img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true&background=00000000" alt="Streak" />
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true&background=00000000" />
+<img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=default&hide_border=true&background=00000000" alt="Streak" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
@@ -205,7 +214,10 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 </picture>
 
 <a href="https://github.com/Sinprakhar01?tab=overview">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_title=true" alt="Contribution activity graph" />
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_title=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&hide_border=true&bg_color=00000000&color=24292f&line=1f6feb&point=24292f&area=true&hide_title=true" alt="Contribution activity graph" />
+</picture>
 </a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:0d1117&height=100&section=footer" alt="Footer" width="100%" />
