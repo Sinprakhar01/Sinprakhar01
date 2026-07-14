@@ -101,7 +101,7 @@
 ```text
 prakhar@agent-console:~$ agentctl status --verbose
 
-┌─ PRAKHAR-1 · autonomous build agent ─────────────────────────────┐
+┌─ KAIROS · autonomous build agent ────────────────────────────────┐
 │  runtime   v26.7.1 (stable)         region  Gurugram, IN         │
 │  uptime    since 2023 · no crashes  tz      UTC+05:30            │
 ├──────────────────────────────────────────────────────────────────┤
