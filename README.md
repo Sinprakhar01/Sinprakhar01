@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=560&lines=%3E+AGENT+STATUS%3A+ONLINE;Building+AI+systems+%26+coding-agent+evals;Deepfake+detection+%C2%B7+NLP+%C2%B7+SWE-bench;%F0%9F%8C%8F+Exploring..." alt="Typing intro" />
 
-`Autonomous` • `AI / ML` • `NLP` • `Agent Evals` • `Full-Stack`
+`Autonomous` • `AI / ML` • `NLP` • `Agent Evals` • `Multimodal`
 
 <br/>
 
@@ -99,13 +99,27 @@
 ## ⚡ Agent Status
 
 ```text
-prakhar@agent-console:~$ ./status --now
+prakhar@agent-console:~$ agentctl status --verbose
 
-  focus       →  AI systems · deepfake detection · coding-agent evals
-  exploring   →  SWE-bench family · GANs · vision transformers · NLP
-  toolbox     →  Python · TypeScript · React · MySQL · Git · Linux
-  base        →  Gurugram, India · UTC+05:30
-  side_quests →  IoT (CircuitPython) · security tooling · web experiments
+┌─ PRAKHAR-1 · autonomous build agent ─────────────────────────────┐
+│  runtime   v26.7.1 (stable)         region  Gurugram, IN         │
+│  uptime    since 2023 · no crashes  tz      UTC+05:30            │
+├──────────────────────────────────────────────────────────────────┤
+│  MODULES                                                         │
+│  ● vision       GANs · Swin-T · deepfake detection      [ACTIVE] │
+│  ● agent-evals  SWE-bench · OpenHands harnesses         [ACTIVE] │
+│  ● nlp          spaCy · industrial text pipelines       [ACTIVE] │
+│  ● post-train   RLHF · RLVR · SFT · DPO                 [LOADED] │
+│  ● infra        AWS · K8s · Docker · sandboxed evals    [LOADED] │
+├──────────────────────────────────────────────────────────────────┤
+│  RESOURCES                                                       │
+│  curiosity    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  100%                         │
+│  gpu_vram     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░   73%  training in progress   │
+│  coffee       ▓▓▓▓░░░░░░░░░░░░░░░░   21%  [REFILL REQUIRED]      │
+├──────────────────────────────────────────────────────────────────┤
+│  last_deploy   deepfake-detection : swingan-v2          [OK]     │
+│  next_mission  exploring...                             [QUEUED] │
+└──────────────────────────────────────────────────────────────────┘
 
 prakhar@agent-console:~$ █
 ```
