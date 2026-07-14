@@ -10,8 +10,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prakhar07)
 [![X](https://img.shields.io/badge/X-181717?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Peterstark_01)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/prakhar_2021)
-[![Linktree](https://img.shields.io/badge/Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/Prakhar_07)
 
 </div>
 
@@ -19,13 +17,17 @@
 
 ## ⚡ At a Glance
 
-|  |  |
-|---|---|
-| 🔭 **Focus** | AI systems — deepfake detection, NLP, coding-agent evaluation |
-| 🌱 **Exploring** | LLM benchmarks (SWE-bench family) · GANs · vision transformers |
-| 🛠️ **Toolbox** | Python · TypeScript · React · MySQL · Git · Linux |
-| 📍 **Base** | Gurugram, India `UTC+05:30` |
-| ⚙️ **Side quests** | IoT with CircuitPython · web experiments · security tooling |
+```text
+prakhar@github:~$ ./status --now
+
+  focus       →  AI systems · deepfake detection · coding-agent evals
+  exploring   →  SWE-bench family · GANs · vision transformers · NLP
+  toolbox     →  Python · TypeScript · React · MySQL · Git · Linux
+  base        →  Gurugram, India · UTC+05:30
+  side_quests →  IoT (CircuitPython) · security tooling · web experiments
+
+prakhar@github:~$ █
+```
 
 ---
 
@@ -93,7 +95,7 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true&rank_icon=github" alt="GitHub stats" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" alt="GitHub stats" height="165" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=compact&langs_count=8" alt="Top languages" height="165" />
 
 <img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true&background=00000000" alt="Streak" />
@@ -108,12 +110,4 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 
 </div>
 
----
 
-<div align="center">
-
-<sub>🌏 Exploring — one commit at a time.</sub>
-
-<img src="https://komarev.com/ghpvc/?username=Sinprakhar01&color=58A6FF&style=flat-square&label=visitors" alt="Visitors" />
-
-</div>
