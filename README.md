@@ -161,12 +161,6 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sinprakhar01&theme=tokyonight" alt="Language pie chart" height="210" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sinprakhar01/Sinprakhar01/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sinprakhar01/Sinprakhar01/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Sinprakhar01/Sinprakhar01/output/github-contribution-grid-snake.svg" />
-</picture>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:0d1117&height=100&section=footer" alt="Footer" width="100%" />
 
 </div>
