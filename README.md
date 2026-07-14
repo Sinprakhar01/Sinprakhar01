@@ -1,105 +1,104 @@
 <div align="center">
 
-# 🤖 Model Card: `Prakhar-1`
+# Prakhar Singh
 
-<img src="https://img.shields.io/badge/🤗-Model_Card-FFD21E?style=flat-square" alt="Model Card" />
-<img src="https://img.shields.io/badge/License-MIT*-blue?style=flat-square" alt="License" />
-<img src="https://img.shields.io/badge/Status-🌏_Exploring...-brightgreen?style=flat-square" alt="Status" />
-<img src="https://komarev.com/ghpvc/?username=Sinprakhar01&color=8A2BE2&style=flat-square&label=INFERENCE+REQUESTS" alt="Profile inference count" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=520&lines=Building+with+Python+%26+TypeScript;Exploring+AI+%2B+agent+evaluation;Deepfakes%2C+NLP+%26+full-stack+experiments;%F0%9F%8C%8F+Exploring..." alt="Typing intro" />
+
+`AI / ML` • `NLP` • `Agent Evals` • `Full-Stack` • `IoT Tinkering`
 
 <br/>
-<br/>
 
-> *A large-context human model fine-tuned for building things.*
-> *Trained on curiosity. Aligned with coffee. Weights not open-sourced.*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prakhar07)
+[![X](https://img.shields.io/badge/X-181717?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Peterstark_01)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/prakhar_2021)
+[![Linktree](https://img.shields.io/badge/Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/Prakhar_07)
 
 </div>
 
 ---
 
-## 📋 Model Details
+## ⚡ At a Glance
 
-| Field | Value |
+|  |  |
 |---|---|
-| **Developer** | Prakhar Singh |
-| **Model type** | Human Transformer *(attention is all he needs)* |
-| **Modalities** | Python · TypeScript · SQL · Hardware tinkering |
-| **Languages** | English, Hindi, Regex (conversational) |
-| **Base model** | `curious-human-base` |
-| **Fine-tuned from** | Stack Overflow, official docs *(occasionally)*, 3 AM debugging sessions |
-| **Context window** | ∞ with coffee · 4 tokens without |
-| **License** | MIT — *Mostly Interested in Tech* |
-| **Current run** | 🌏 `Exploring...` |
+| 🔭 **Focus** | AI systems — deepfake detection, NLP, coding-agent evaluation |
+| 🌱 **Exploring** | LLM benchmarks (SWE-bench family) · GANs · vision transformers |
+| 🛠️ **Toolbox** | Python · TypeScript · React · MySQL · Git · Linux |
+| 📍 **Base** | Gurugram, India `UTC+05:30` |
+| ⚙️ **Side quests** | IoT with CircuitPython · web experiments · security tooling |
 
 ---
 
-## 🧠 Architecture
+## 🚀 Featured Work
 
-**Core layers** *(pretrained, production-stable)*
+<table>
+<tr>
+<td width="50%" valign="top">
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![MySQL](https://img.shields.io/badge/MySQL-00f?style=for-the-badge&logo=mysql&logoColor=white)
+### 🎭 Deepfake Detection — SwinGAN
+Detecting AI-generated faces using a Swin Transformer + GAN pipeline.
 
-**Attention heads** *(AI / ML focus)*
+`PyTorch` `Swin-T` `GANs` `Computer Vision`
 
-![NLP](https://img.shields.io/badge/NLP-spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
-![Deepfake Detection](https://img.shields.io/badge/GANs-Deepfake_Detection-FF6F61?style=for-the-badge)
-![Agent Evals](https://img.shields.io/badge/Agent-Benchmarking-8A2BE2?style=for-the-badge)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+[Repository →](https://github.com/Sinprakhar01/Deepfake-Detection-Using-SwinGan)
 
-**Adapter modules** *(hot-swappable)*
+</td>
+<td width="50%" valign="top">
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Raspberry Pi](https://img.shields.io/badge/IoT-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+### 🌳 Rule Engine with AST
+Dynamic rule engine that parses, combines and evaluates conditional logic as abstract syntax trees.
+
+`Python` `AST` `Flask`
+
+[Repository →](https://github.com/Sinprakhar01/Rule-Engine-With-AST)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌦️ Real-Time Weather Monitor
+Live weather ingestion with rollups, configurable alert thresholds and daily summaries.
+
+`Python` `REST APIs` `SQLite`
+
+[Repository →](https://github.com/Sinprakhar01/Real-Time-Weather-Monitoring-System)
+
+</td>
+<td width="50%" valign="top">
+
+### 🥗 SelfSense
+Food-nutrient calculator that turns everyday meals into actionable nutrition insight.
+
+`TypeScript` `React` `Vite`
+
+[Repository →](https://github.com/Sinprakhar01/SelfSense-food-nutrients-calculator)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🎯 Intended Use
+## 🧪 Currently Exploring
 
-**✅ Direct use**
-- Building AI-powered systems and NLP experiments
-- Benchmarking coding agents *(multi-SWE-bench, OpenHands)*
-- Full-stack side projects that absolutely did not need to exist, but do
-
-**🔧 Downstream use**
-- Hackathons · open-source collabs · "wanna build something cool?"
-
-**❌ Out-of-scope use**
-- Centering a div without googling it *(again)*
-- Meetings before 10 AM
-- Accurate deadline estimation
+- **Coding-agent evaluation** — poking at multi-SWE-bench and OpenHands benchmark harnesses
+- **Industrial NLP** — spaCy internals and production text pipelines
+- **Generative vision** — GAN architectures beyond detection
+- **Network tooling** — mitmproxy-style traffic interception for debugging
 
 ---
 
-## 📊 Evaluation Results
-
-| Benchmark | Score | Notes |
-|---|---|---|
-| `repos-shipped` | **26+** | includes experimental checkpoints |
-| `deepfake-detection` | SwinGAN | vision transformer fine-tuning |
-| `agent-evals` | SWE-bench family | evaluation harness contributor mode |
-| `coffee-to-code` | 1 : 1000 | cups per lines, approximately |
+## 📊 Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true&rank_icon=github" alt="GitHub stats" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=compact&langs_count=8" alt="Top languages" height="170" />
+<img src="https://github-readme-stats.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true&rank_icon=github" alt="GitHub stats" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=compact&langs_count=8" alt="Top languages" height="165" />
 
-<img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true&background=00000000" alt="Streak stats" />
+<img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true&background=00000000" alt="Streak" />
 
-</div>
-
----
-
-## 📈 Training Metrics
-
-<div align="center">
-
-<img src="./github-metrics.svg" alt="Isometric contribution metrics" />
+<img src="./github-metrics.svg" alt="Detailed metrics" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sinprakhar01/Sinprakhar01/output/github-contribution-grid-snake-dark.svg" />
@@ -111,64 +110,10 @@
 
 ---
 
-## ⚠️ Known Limitations & Biases
-
-- May **hallucinate confidence** before the first coffee of the day
-- **Overfits** to shiny new side projects; catastrophic forgetting of old ones
-- Response latency **spikes during cricket season** 🏏
-- Known **prompt injection vulnerability**: `"bro, one quick idea..."`
-- Occasionally outputs `console.log("here")` in production-adjacent environments
-
----
-
-## 🏆 Model Achievements
-
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Sinprakhar01&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies" />
+<sub>🌏 Exploring — one commit at a time.</sub>
 
-</div>
-
----
-
-## 🔌 Inference API
-
-```python
-from prakhar import Prakhar1
-
-model = Prakhar1.from_pretrained("Sinprakhar01")
-
-response = model.generate("wanna collaborate on something cool?")
-# >>> "Absolutely. Ship it. 🚀"
-```
-
-**Endpoints:**
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-prakhar07-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prakhar07)
-[![X](https://img.shields.io/badge/X-@Peterstark__01-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Peterstark_01)
-[![Instagram](https://img.shields.io/badge/Instagram-prakhar__2021-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/prakhar_2021)
-[![Linktree](https://img.shields.io/badge/Linktree-Prakhar__07-43E55E?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/Prakhar_07)
-
-</div>
-
----
-
-## 📄 Citation
-
-```bibtex
-@misc{prakhar2026,
-  author = {Singh, Prakhar},
-  title  = {Prakhar-1: A Human Model Fine-Tuned for Building},
-  year   = {2026},
-  url    = {https://github.com/Sinprakhar01},
-  note   = {Weights not open-sourced. Coffee-dependent runtime.}
-}
-```
-
-<div align="center">
-
-<sub>⚡ This model card auto-updates its metrics daily via GitHub Actions.</sub>
+<img src="https://komarev.com/ghpvc/?username=Sinprakhar01&color=58A6FF&style=flat-square&label=visitors" alt="Visitors" />
 
 </div>
