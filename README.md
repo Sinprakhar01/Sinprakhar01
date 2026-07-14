@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:58A6FF&height=190&section=header&text=PRAKHAR%20SINGH&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=AI%20Systems%20%C2%B7%20Agent%20Evaluation%20%C2%B7%20Autonomous%20Builder&descAlignY=53&descSize=15" alt="Banner" width="100%" />
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:58A6FF&height=190&section=header&text=PRAKHAR%20SINGH&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=AI%20Systems%20%C2%B7%20Agent%20Evaluation%20%C2%B7%20Autonomous%20Builder&descAlignY=53&descSize=15" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:eaf2ff,45:9ec5ff,100:1f6feb&height=190&section=header&text=PRAKHAR%20SINGH&fontSize=44&fontColor=000000&animation=fadeIn&fontAlignY=32&desc=AI%20Systems%20%C2%B7%20Agent%20Evaluation%20%C2%B7%20Autonomous%20Builder&descAlignY=53&descSize=15" alt="Banner" width="100%" />
+</picture>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=560&lines=%3E+AGENT+STATUS%3A+ONLINE;Building+AI+systems+%26+coding-agent+evals;Deepfake+detection+%C2%B7+NLP+%C2%B7+SWE-bench;%F0%9F%8C%8F+Exploring..." alt="Typing intro" />
 
@@ -27,40 +30,40 @@
 </td></tr>
 <tr><td><b>⚗️ Training &amp; Alignment</b><br/><sub>post-training &amp; preference optimization</sub></td>
 <td align="center">
-<a href="https://huggingface.co/blog/rlhf"><img src="https://img.shields.io/badge/RLHF-e0af68?style=for-the-badge&logo=huggingface&logoColor=black" alt="RLHF" /></a>
-<a href="https://arxiv.org/abs/2411.15124"><img src="https://img.shields.io/badge/RLVR-e0af68?style=for-the-badge" alt="RLVR" /></a>
-<a href="https://huggingface.co/docs/trl/sft_trainer"><img src="https://img.shields.io/badge/SFT-e0af68?style=for-the-badge" alt="SFT" /></a>
-<a href="https://arxiv.org/abs/2305.18290"><img src="https://img.shields.io/badge/DPO-e0af68?style=for-the-badge" alt="DPO" /></a>
-<a href="https://huggingface.co/docs/trl/reward_trainer"><img src="https://img.shields.io/badge/Reward_Modeling-e0af68?style=for-the-badge" alt="Reward Modeling" /></a>
-<a href="https://huggingface.co/docs/peft"><img src="https://img.shields.io/badge/LoRA_%2F_PEFT-e0af68?style=for-the-badge" alt="LoRA / PEFT" /></a>
+<a href="https://huggingface.co/blog/rlhf"><img src="https://img.shields.io/badge/RLHF-F59E0B?style=for-the-badge&labelColor=0d1117&logo=huggingface&logoColor=black" alt="RLHF" /></a>
+<a href="https://arxiv.org/abs/2411.15124"><img src="https://img.shields.io/badge/RLVR-F59E0B?style=for-the-badge&labelColor=0d1117" alt="RLVR" /></a>
+<a href="https://huggingface.co/docs/trl/sft_trainer"><img src="https://img.shields.io/badge/SFT-F59E0B?style=for-the-badge&labelColor=0d1117" alt="SFT" /></a>
+<a href="https://arxiv.org/abs/2305.18290"><img src="https://img.shields.io/badge/DPO-F59E0B?style=for-the-badge&labelColor=0d1117" alt="DPO" /></a>
+<a href="https://huggingface.co/docs/trl/reward_trainer"><img src="https://img.shields.io/badge/Reward_Modeling-F59E0B?style=for-the-badge&labelColor=0d1117" alt="Reward Modeling" /></a>
+<a href="https://huggingface.co/docs/peft"><img src="https://img.shields.io/badge/LoRA_%2F_PEFT-F59E0B?style=for-the-badge&labelColor=0d1117" alt="LoRA / PEFT" /></a>
 </td></tr>
 <tr><td><b>🔁 Agentic Systems</b><br/><sub>autonomous loops · evaluation harnesses</sub></td>
 <td align="center">
-<a href="https://www.anthropic.com/research/building-effective-agents"><img src="https://img.shields.io/badge/Loop_Engineering-bb9af7?style=for-the-badge" alt="Loop Engineering" /></a>
-<a href="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/"><img src="https://img.shields.io/badge/Long--Horizon_Benchmarks-bb9af7?style=for-the-badge" alt="Long-Horizon Benchmarks" /></a>
-<a href="https://www.swebench.com"><img src="https://img.shields.io/badge/SWE--bench-bb9af7?style=for-the-badge" alt="SWE-bench" /></a>
-<a href="https://docs.anthropic.com/en/docs/build-with-claude/tool-use"><img src="https://img.shields.io/badge/Tool_Use-bb9af7?style=for-the-badge" alt="Tool Use" /></a>
-<a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-bb9af7?style=for-the-badge" alt="MCP" /></a>
-<a href="https://www.anthropic.com/engineering/built-multi-agent-research-system"><img src="https://img.shields.io/badge/Multi--Agent_Orchestration-bb9af7?style=for-the-badge" alt="Multi-Agent Orchestration" /></a>
-<a href="https://arxiv.org/abs/2303.11366"><img src="https://img.shields.io/badge/Planning_%26_Reflection-bb9af7?style=for-the-badge" alt="Planning and Reflection" /></a>
-<a href="https://arxiv.org/abs/2310.08560"><img src="https://img.shields.io/badge/Memory_Systems-bb9af7?style=for-the-badge" alt="Memory Systems" /></a>
+<a href="https://www.anthropic.com/research/building-effective-agents"><img src="https://img.shields.io/badge/Loop_Engineering-A855F7?style=for-the-badge&labelColor=0d1117" alt="Loop Engineering" /></a>
+<a href="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/"><img src="https://img.shields.io/badge/Long--Horizon_Benchmarks-A855F7?style=for-the-badge&labelColor=0d1117" alt="Long-Horizon Benchmarks" /></a>
+<a href="https://www.swebench.com"><img src="https://img.shields.io/badge/SWE--bench-A855F7?style=for-the-badge&labelColor=0d1117" alt="SWE-bench" /></a>
+<a href="https://docs.anthropic.com/en/docs/build-with-claude/tool-use"><img src="https://img.shields.io/badge/Tool_Use-A855F7?style=for-the-badge&labelColor=0d1117" alt="Tool Use" /></a>
+<a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-A855F7?style=for-the-badge&labelColor=0d1117" alt="MCP" /></a>
+<a href="https://www.anthropic.com/engineering/built-multi-agent-research-system"><img src="https://img.shields.io/badge/Multi--Agent_Orchestration-A855F7?style=for-the-badge&labelColor=0d1117" alt="Multi-Agent Orchestration" /></a>
+<a href="https://arxiv.org/abs/2303.11366"><img src="https://img.shields.io/badge/Planning_%26_Reflection-A855F7?style=for-the-badge&labelColor=0d1117" alt="Planning and Reflection" /></a>
+<a href="https://arxiv.org/abs/2310.08560"><img src="https://img.shields.io/badge/Memory_Systems-A855F7?style=for-the-badge&labelColor=0d1117" alt="Memory Systems" /></a>
 </td></tr>
 <tr><td><b>🧠 LLM Engineering</b><br/><sub>retrieval · context · inference</sub></td>
 <td align="center">
-<a href="https://huggingface.co/learn/llm-course"><img src="https://img.shields.io/badge/LLMs-7aa2f7?style=for-the-badge" alt="LLMs" /></a>
-<a href="https://arxiv.org/abs/2005.11401"><img src="https://img.shields.io/badge/RAG-7aa2f7?style=for-the-badge" alt="RAG" /></a>
-<a href="https://github.com/facebookresearch/faiss"><img src="https://img.shields.io/badge/Vector_Search-7aa2f7?style=for-the-badge" alt="Vector Search" /></a>
-<a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"><img src="https://img.shields.io/badge/Context_Engineering-7aa2f7?style=for-the-badge" alt="Context Engineering" /></a>
-<a href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"><img src="https://img.shields.io/badge/Prompt_Engineering-7aa2f7?style=for-the-badge" alt="Prompt Engineering" /></a>
-<a href="https://github.com/openai/evals"><img src="https://img.shields.io/badge/Evals-7aa2f7?style=for-the-badge" alt="Evals" /></a>
-<a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/Inference_Optimization-7aa2f7?style=for-the-badge" alt="Inference Optimization" /></a>
+<a href="https://huggingface.co/learn/llm-course"><img src="https://img.shields.io/badge/LLMs-3B82F6?style=for-the-badge&labelColor=0d1117" alt="LLMs" /></a>
+<a href="https://arxiv.org/abs/2005.11401"><img src="https://img.shields.io/badge/RAG-3B82F6?style=for-the-badge&labelColor=0d1117" alt="RAG" /></a>
+<a href="https://github.com/facebookresearch/faiss"><img src="https://img.shields.io/badge/Vector_Search-3B82F6?style=for-the-badge&labelColor=0d1117" alt="Vector Search" /></a>
+<a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"><img src="https://img.shields.io/badge/Context_Engineering-3B82F6?style=for-the-badge&labelColor=0d1117" alt="Context Engineering" /></a>
+<a href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"><img src="https://img.shields.io/badge/Prompt_Engineering-3B82F6?style=for-the-badge&labelColor=0d1117" alt="Prompt Engineering" /></a>
+<a href="https://github.com/openai/evals"><img src="https://img.shields.io/badge/Evals-3B82F6?style=for-the-badge&labelColor=0d1117" alt="Evals" /></a>
+<a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/Inference_Optimization-3B82F6?style=for-the-badge&labelColor=0d1117" alt="Inference Optimization" /></a>
 </td></tr>
 <tr><td><b>👁️ Multimodal</b><br/><sub>vision-language · generative media</sub></td>
 <td align="center">
-<a href="https://huggingface.co/blog/vlms"><img src="https://img.shields.io/badge/VLMs-9ece6a?style=for-the-badge" alt="VLMs" /></a>
-<a href="https://arxiv.org/abs/1406.2661"><img src="https://img.shields.io/badge/Multimodal_GANs-9ece6a?style=for-the-badge" alt="Multimodal GANs" /></a>
-<a href="https://github.com/Sinprakhar01/Deepfake-Detection-Using-SwinGan"><img src="https://img.shields.io/badge/Deepfake_Detection-9ece6a?style=for-the-badge" alt="Deepfake Detection" /></a>
-<a href="https://spacy.io"><img src="https://img.shields.io/badge/NLP-9ece6a?style=for-the-badge" alt="NLP" /></a>
+<a href="https://huggingface.co/blog/vlms"><img src="https://img.shields.io/badge/VLMs-22C55E?style=for-the-badge&labelColor=0d1117" alt="VLMs" /></a>
+<a href="https://arxiv.org/abs/1406.2661"><img src="https://img.shields.io/badge/Multimodal_GANs-22C55E?style=for-the-badge&labelColor=0d1117" alt="Multimodal GANs" /></a>
+<a href="https://github.com/Sinprakhar01/Deepfake-Detection-Using-SwinGan"><img src="https://img.shields.io/badge/Deepfake_Detection-22C55E?style=for-the-badge&labelColor=0d1117" alt="Deepfake Detection" /></a>
+<a href="https://spacy.io"><img src="https://img.shields.io/badge/NLP-22C55E?style=for-the-badge&labelColor=0d1117" alt="NLP" /></a>
 </td></tr>
 <tr><td><b>🗣️ NLP</b><br/><sub><a href="https://spacy.io">spaCy</a> internals · industrial text pipelines · tokenization &amp; NER</sub></td>
 <td align="center">
