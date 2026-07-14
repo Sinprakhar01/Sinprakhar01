@@ -151,7 +151,10 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 
 <img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true&background=00000000" alt="Streak" />
 
-<img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution chart" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution chart" width="100%" />
+</picture>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true" alt="Contribution activity graph" />
 
