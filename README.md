@@ -159,7 +159,7 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true" alt="Contribution activity graph" />
 </a>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sinprakhar01&theme=tokyonight" alt="Language pie chart" height="210" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=donut&langs_count=6&card_width=450" alt="Languages donut with percentages" width="450" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:0d1117&height=100&section=footer" alt="Footer" width="100%" />
 
