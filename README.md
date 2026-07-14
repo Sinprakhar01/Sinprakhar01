@@ -19,13 +19,49 @@
 
 <table>
 <tr><td width="34%"><b>🎭 Deep Learning &amp; Vision</b><br/><sub>GANs · Swin Transformers · deepfake detection · OpenCV pipelines</sub></td>
-<td align="center"><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&theme=dark" alt="DL stack" /></td></tr>
-<tr><td><b>🗣️ NLP</b><br/><sub>spaCy internals · industrial text pipelines · tokenization &amp; NER</sub></td>
-<td align="center"><img src="https://skillicons.dev/icons?i=python,anaconda,sklearn&theme=dark" alt="NLP stack" /></td></tr>
-<tr><td><b>🕵️ Agent Evaluation</b><br/><sub>SWE-bench · multi-SWE-bench · OpenHands harnesses · sandboxed eval runs</sub></td>
-<td align="center"><img src="https://skillicons.dev/icons?i=docker,github,bash&theme=dark" alt="Eval stack" /></td></tr>
-<tr><td><b>⚙️ Engineering Core</b><br/><sub>APIs · web apps · databases · tooling</sub></td>
-<td align="center"><img src="https://skillicons.dev/icons?i=typescript,react,nodejs,mysql,git,linux&theme=dark" alt="Eng stack" /></td></tr>
+<td align="center">
+<a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=python&theme=dark" height="45" alt="Python" /></a>
+<a href="https://pytorch.org"><img src="https://skillicons.dev/icons?i=pytorch&theme=dark" height="45" alt="PyTorch" /></a>
+<a href="https://www.tensorflow.org"><img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" height="45" alt="TensorFlow" /></a>
+<a href="https://opencv.org"><img src="https://skillicons.dev/icons?i=opencv&theme=dark" height="45" alt="OpenCV" /></a>
+</td></tr>
+<tr><td><b>🧬 LLM Post-Training</b><br/><sub>alignment &amp; fine-tuning pipelines</sub></td>
+<td align="center">
+<a href="https://huggingface.co/blog/rlhf"><img src="https://img.shields.io/badge/RLHF-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="RLHF" /></a>
+<a href="https://arxiv.org/abs/2411.15124"><img src="https://img.shields.io/badge/RLVR-8A2BE2?style=for-the-badge" alt="RLVR" /></a>
+<a href="https://huggingface.co/docs/trl/sft_trainer"><img src="https://img.shields.io/badge/SFT-1f6feb?style=for-the-badge" alt="SFT" /></a>
+<a href="https://huggingface.co/blog/vlms"><img src="https://img.shields.io/badge/Multimodal-2ea043?style=for-the-badge" alt="Multimodal" /></a>
+</td></tr>
+<tr><td><b>🗣️ NLP</b><br/><sub><a href="https://spacy.io">spaCy</a> internals · industrial text pipelines · tokenization &amp; NER</sub></td>
+<td align="center">
+<a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=python&theme=dark" height="45" alt="Python" /></a>
+<a href="https://www.anaconda.com"><img src="https://skillicons.dev/icons?i=anaconda&theme=dark" height="45" alt="Anaconda" /></a>
+<a href="https://scikit-learn.org"><img src="https://skillicons.dev/icons?i=sklearn&theme=dark" height="45" alt="scikit-learn" /></a>
+</td></tr>
+<tr><td><b>🕵️ Agent Evaluation</b><br/><sub><a href="https://www.swebench.com">SWE-bench</a> · <a href="https://github.com/multi-swe-bench/multi-swe-bench">multi-SWE-bench</a> · <a href="https://github.com/All-Hands-AI/OpenHands">OpenHands</a> · sandboxed eval runs</sub></td>
+<td align="center">
+<a href="https://www.docker.com"><img src="https://skillicons.dev/icons?i=docker&theme=dark" height="45" alt="Docker" /></a>
+<a href="https://github.com"><img src="https://skillicons.dev/icons?i=github&theme=dark" height="45" alt="GitHub" /></a>
+<a href="https://www.gnu.org/software/bash/"><img src="https://skillicons.dev/icons?i=bash&theme=dark" height="45" alt="Bash" /></a>
+</td></tr>
+<tr><td><b>☁️ Cloud &amp; Infra</b><br/><sub>deployment · orchestration · containerized eval environments</sub></td>
+<td align="center">
+<a href="https://aws.amazon.com"><img src="https://skillicons.dev/icons?i=aws&theme=dark" height="45" alt="AWS" /></a>
+<a href="https://kubernetes.io"><img src="https://skillicons.dev/icons?i=kubernetes&theme=dark" height="45" alt="Kubernetes" /></a>
+<a href="https://vercel.com"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" height="45" alt="Vercel" /></a>
+</td></tr>
+<tr><td><b>⚙️ Engineering Core</b><br/><sub>APIs · web apps · databases · systems tooling</sub></td>
+<td align="center">
+<a href="https://www.typescriptlang.org"><img src="https://skillicons.dev/icons?i=typescript&theme=dark" height="45" alt="TypeScript" /></a>
+<a href="https://react.dev"><img src="https://skillicons.dev/icons?i=react&theme=dark" height="45" alt="React" /></a>
+<a href="https://nodejs.org"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" height="45" alt="Node.js" /></a>
+<a href="https://www.java.com"><img src="https://skillicons.dev/icons?i=java&theme=dark" height="45" alt="Java" /></a>
+<a href="https://www.rust-lang.org"><img src="https://skillicons.dev/icons?i=rust&theme=dark" height="45" alt="Rust" /></a>
+<a href="https://go.dev"><img src="https://skillicons.dev/icons?i=go&theme=dark" height="45" alt="Go" /></a>
+<a href="https://www.mysql.com"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" height="45" alt="MySQL" /></a>
+<a href="https://git-scm.com"><img src="https://skillicons.dev/icons?i=git&theme=dark" height="45" alt="Git" /></a>
+<a href="https://www.kernel.org"><img src="https://skillicons.dev/icons?i=linux&theme=dark" height="45" alt="Linux" /></a>
+</td></tr>
 </table>
 
 ---
