@@ -25,12 +25,42 @@
 <a href="https://www.tensorflow.org"><img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" height="45" alt="TensorFlow" /></a>
 <a href="https://opencv.org"><img src="https://skillicons.dev/icons?i=opencv&theme=dark" height="45" alt="OpenCV" /></a>
 </td></tr>
-<tr><td><b>🧬 LLM Post-Training</b><br/><sub>alignment &amp; fine-tuning pipelines</sub></td>
+<tr><td><b>⚗️ Training &amp; Alignment</b><br/><sub>post-training &amp; preference optimization</sub></td>
 <td align="center">
 <a href="https://huggingface.co/blog/rlhf"><img src="https://img.shields.io/badge/RLHF-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="RLHF" /></a>
-<a href="https://arxiv.org/abs/2411.15124"><img src="https://img.shields.io/badge/RLVR-8A2BE2?style=for-the-badge" alt="RLVR" /></a>
-<a href="https://huggingface.co/docs/trl/sft_trainer"><img src="https://img.shields.io/badge/SFT-1f6feb?style=for-the-badge" alt="SFT" /></a>
-<a href="https://huggingface.co/blog/vlms"><img src="https://img.shields.io/badge/Multimodal-2ea043?style=for-the-badge" alt="Multimodal" /></a>
+<a href="https://arxiv.org/abs/2411.15124"><img src="https://img.shields.io/badge/RLVR-FFD21E?style=for-the-badge" alt="RLVR" /></a>
+<a href="https://huggingface.co/docs/trl/sft_trainer"><img src="https://img.shields.io/badge/SFT-FFD21E?style=for-the-badge" alt="SFT" /></a>
+<a href="https://arxiv.org/abs/2305.18290"><img src="https://img.shields.io/badge/DPO-FFD21E?style=for-the-badge" alt="DPO" /></a>
+<a href="https://huggingface.co/docs/trl/reward_trainer"><img src="https://img.shields.io/badge/Reward_Modeling-FFD21E?style=for-the-badge" alt="Reward Modeling" /></a>
+<a href="https://huggingface.co/docs/peft"><img src="https://img.shields.io/badge/LoRA_%2F_PEFT-FFD21E?style=for-the-badge" alt="LoRA / PEFT" /></a>
+</td></tr>
+<tr><td><b>🔁 Agentic Systems</b><br/><sub>autonomous loops · evaluation harnesses</sub></td>
+<td align="center">
+<a href="https://www.anthropic.com/research/building-effective-agents"><img src="https://img.shields.io/badge/Loop_Engineering-8A2BE2?style=for-the-badge" alt="Loop Engineering" /></a>
+<a href="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/"><img src="https://img.shields.io/badge/Long--Horizon_Benchmarks-8A2BE2?style=for-the-badge" alt="Long-Horizon Benchmarks" /></a>
+<a href="https://www.swebench.com"><img src="https://img.shields.io/badge/SWE--bench-8A2BE2?style=for-the-badge" alt="SWE-bench" /></a>
+<a href="https://docs.anthropic.com/en/docs/build-with-claude/tool-use"><img src="https://img.shields.io/badge/Tool_Use-8A2BE2?style=for-the-badge" alt="Tool Use" /></a>
+<a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-8A2BE2?style=for-the-badge" alt="MCP" /></a>
+<a href="https://www.anthropic.com/engineering/built-multi-agent-research-system"><img src="https://img.shields.io/badge/Multi--Agent_Orchestration-8A2BE2?style=for-the-badge" alt="Multi-Agent Orchestration" /></a>
+<a href="https://arxiv.org/abs/2303.11366"><img src="https://img.shields.io/badge/Planning_%26_Reflection-8A2BE2?style=for-the-badge" alt="Planning and Reflection" /></a>
+<a href="https://arxiv.org/abs/2310.08560"><img src="https://img.shields.io/badge/Memory_Systems-8A2BE2?style=for-the-badge" alt="Memory Systems" /></a>
+</td></tr>
+<tr><td><b>🧠 LLM Engineering</b><br/><sub>retrieval · context · inference</sub></td>
+<td align="center">
+<a href="https://huggingface.co/learn/llm-course"><img src="https://img.shields.io/badge/LLMs-1f6feb?style=for-the-badge" alt="LLMs" /></a>
+<a href="https://arxiv.org/abs/2005.11401"><img src="https://img.shields.io/badge/RAG-1f6feb?style=for-the-badge" alt="RAG" /></a>
+<a href="https://github.com/facebookresearch/faiss"><img src="https://img.shields.io/badge/Vector_Search-1f6feb?style=for-the-badge" alt="Vector Search" /></a>
+<a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"><img src="https://img.shields.io/badge/Context_Engineering-1f6feb?style=for-the-badge" alt="Context Engineering" /></a>
+<a href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"><img src="https://img.shields.io/badge/Prompt_Engineering-1f6feb?style=for-the-badge" alt="Prompt Engineering" /></a>
+<a href="https://github.com/openai/evals"><img src="https://img.shields.io/badge/Evals-1f6feb?style=for-the-badge" alt="Evals" /></a>
+<a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/Inference_Optimization-1f6feb?style=for-the-badge" alt="Inference Optimization" /></a>
+</td></tr>
+<tr><td><b>👁️ Multimodal</b><br/><sub>vision-language · generative media</sub></td>
+<td align="center">
+<a href="https://huggingface.co/blog/vlms"><img src="https://img.shields.io/badge/VLMs-2ea043?style=for-the-badge" alt="VLMs" /></a>
+<a href="https://arxiv.org/abs/1406.2661"><img src="https://img.shields.io/badge/Multimodal_GANs-2ea043?style=for-the-badge" alt="Multimodal GANs" /></a>
+<a href="https://github.com/Sinprakhar01/Deepfake-Detection-Using-SwinGan"><img src="https://img.shields.io/badge/Deepfake_Detection-2ea043?style=for-the-badge" alt="Deepfake Detection" /></a>
+<a href="https://spacy.io"><img src="https://img.shields.io/badge/NLP-2ea043?style=for-the-badge" alt="NLP" /></a>
 </td></tr>
 <tr><td><b>🗣️ NLP</b><br/><sub><a href="https://spacy.io">spaCy</a> internals · industrial text pipelines · tokenization &amp; NER</sub></td>
 <td align="center">
@@ -146,8 +176,9 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 
 <div align="center">
 
-<img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" alt="GitHub stats" height="200" />
-<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=pie&langs_count=6&card_width=380" alt="Most used languages pie chart" height="200" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&hide_rank=true" alt="GitHub stats" height="190" />
+
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=pie&langs_count=8&card_width=500&size_weight=0.5&count_weight=0.5" alt="Most used languages pie chart" width="520" />
 
 <img src="https://streak-stats.demolab.com?user=Sinprakhar01&theme=tokyonight&hide_border=true&background=00000000" alt="Streak" />
 
@@ -157,7 +188,7 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 </picture>
 
 <a href="https://github.com/Sinprakhar01?tab=overview" title="Open interactive history — hover shows exact dates and commit counts">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true" alt="Contribution activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_title=true" alt="Contribution activity graph" />
 </a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:0d1117&height=100&section=footer" alt="Footer" width="100%" />
