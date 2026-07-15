@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=560&lines=%3E+AGENT+STATUS%3A+ONLINE;Building+AI+systems+%26+coding-agent+evals;Deepfake+detection+%C2%B7+NLP+%C2%B7+SWE-bench;%F0%9F%8C%8F+Exploring..." alt="Typing intro" />
 
-`Autonomous` • `AI / ML` • `NLP` • `Agent Evals` • `Multimodal`
+`AI / ML` • `NLP` • `Agent Evals` • `Multimodal`
 
 <br/>
 
