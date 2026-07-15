@@ -193,12 +193,12 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 <table>
 <tr>
 <td align="center" valign="middle" width="50%"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&hide_rank=true&cache_seconds=1800" />
-<img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=default&hide_border=true&bg_color=00000000&hide_rank=true" alt="GitHub stats" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&hide_rank=true&hide_title=true&cache_seconds=1800" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&theme=default&hide_border=true&bg_color=00000000&hide_rank=true&hide_title=true" alt="GitHub stats" />
 </picture></td>
 <td align="center" valign="middle" width="50%"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=pie&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5&cache_seconds=1800" />
-<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=default&hide_border=true&bg_color=00000000&layout=pie&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5" alt="Most used languages pie chart" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=tokyonight&hide_border=true&bg_color=00000000&layout=donut&hide_title=true&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5&cache_seconds=1800" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&theme=default&hide_border=true&bg_color=00000000&layout=donut&hide_title=true&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5" alt="Most used languages pie chart" />
 </picture></td>
 </tr>
 </table>
