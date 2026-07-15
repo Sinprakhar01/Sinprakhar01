@@ -1,13 +1,9 @@
 <div align="center">
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:58A6FF,100:9ec5ff&height=130&section=header" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:58A6FF,100:9ec5ff&height=130&section=header" alt="Banner" width="100%" />
+<source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:58A6FF&height=190&section=header&text=PRAKHAR%20SINGH&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=AI%20Systems%20%C2%B7%20Agent%20Evaluation%20%C2%B7%20Autonomous%20Builder&descAlignY=53&descSize=15&v=3" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:eaf2ff,45:9ec5ff,100:1f6feb&height=190&section=header&text=PRAKHAR%20SINGH&fontSize=44&fontColor=000000&fontAlignY=32&desc=AI%20Systems%20%C2%B7%20Agent%20Evaluation%20%C2%B7%20Autonomous%20Builder&descAlignY=53&descSize=15&v=3" alt="Banner" width="100%" />
 </picture>
-
-# Prakhar Singh
-
-### AI Systems · Agent Evaluation · Autonomous Builder
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=560&lines=%3E+AGENT+STATUS%3A+ONLINE;Building+AI+systems+%26+coding-agent+evals;Deepfake+detection+%C2%B7+NLP+%C2%B7+SWE-bench;%F0%9F%8C%8F+Exploring..." alt="Typing intro" />
 
