@@ -27,7 +27,7 @@
 </td></tr>
 <tr><td><b>⚗️ Training &amp; Alignment</b><br/><sub>post-training &amp; preference optimization</sub></td>
 <td align="center">
-<a href="https://huggingface.co/blog/rlhf"><img src="https://img.shields.io/badge/RLHF-F59E0B?style=for-the-badge&labelColor=0d1117&logo=huggingface&logoColor=black" alt="RLHF" /></a>
+<a href="https://huggingface.co/blog/rlhf"><img src="https://img.shields.io/badge/RLHF-F59E0B?style=for-the-badge" alt="RLHF" /></a>
 <a href="https://arxiv.org/abs/2411.15124"><img src="https://img.shields.io/badge/RLVR-F59E0B?style=for-the-badge&labelColor=0d1117" alt="RLVR" /></a>
 <a href="https://huggingface.co/docs/trl/sft_trainer"><img src="https://img.shields.io/badge/SFT-F59E0B?style=for-the-badge&labelColor=0d1117" alt="SFT" /></a>
 <a href="https://arxiv.org/abs/2305.18290"><img src="https://img.shields.io/badge/DPO-F59E0B?style=for-the-badge&labelColor=0d1117" alt="DPO" /></a>
