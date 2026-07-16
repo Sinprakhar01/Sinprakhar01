@@ -23,12 +23,16 @@ jobs:
 
       # Post-processes the SVGs the action emits: removes the bottom-left
       # donut legend (the <g> at translate(40, 520)), strips date-range
-      # labels, and makes the background transparent so charts blend with
-      # both GitHub themes. The coordinates and regexes are tied to the
-      # output layout of github-profile-3d-contrib@0.7.1 — if the action
-      # version is bumped and the layout shifts, the warnings below fire
-      # instead of silently corrupting (or silently skipping) the charts.
-      - name: Clean charts (donut, date, transparent bg)
+      # labels, and paints a solid per-theme background (night-* variants
+      # get GitHub dark #0d1117, the rest get white). Solid backgrounds
+      # keep charts legible even when the OS color scheme and the GitHub
+      # theme disagree — prefers-color-scheme follows the OS, so the
+      # "wrong" variant can load and must stand on its own. The
+      # coordinates and regexes are tied to the output layout of
+      # github-profile-3d-contrib@0.7.1 — if the action version is bumped
+      # and the layout shifts, the warnings below fire instead of
+      # silently corrupting (or silently skipping) the charts.
+      - name: Clean charts (donut, date, theme bg)
         run: |
           python3 - <<'EOF'
           import re, glob
@@ -48,7 +52,8 @@ jobs:
                   print(f"::warning file={p}::donut legend anchor not found; "
                         "layout may have changed after an action version bump")
               s, n_dates = re.subn(r'<text[^>]*>[^<]*20[0-9]{2}-[0-9]{2}-[0-9]{2}[^<]*</text>', '', s)
-              s, n_bg = re.subn(r'(<rect x="0" y="0" width="1280" height="850" fill=")[^"]+(")', r'\1none\2', s, count=1)
+              bg = '#0d1117' if 'night' in p else '#ffffff'
+              s, n_bg = re.subn(r'(<rect x="0" y="0" width="1280" height="850" fill=")[^"]+(")', r'\g<1>' + bg + r'\g<2>', s, count=1)
               if n_dates == 0:
                   print(f"::warning file={p}::no date labels matched")
               if n_bg == 0:

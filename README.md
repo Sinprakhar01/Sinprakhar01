@@ -93,12 +93,12 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 <table>
 <tr>
 <td align="center" valign="middle" width="50%"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&hide_border=true&bg_color=00000000&hide_rank=true&custom_title=GitHub%20Stats&cache_seconds=300&title_color=58A6FF&icon_color=1f6feb&text_color=c9d1d9" />
-<img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&hide_border=true&bg_color=00000000&hide_rank=true&custom_title=GitHub%20Stats&cache_seconds=300&title_color=0969da&icon_color=0969da&text_color=24292f" alt="GitHub stats" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&hide_border=true&bg_color=0d1117&hide_rank=true&custom_title=GitHub%20Stats&cache_seconds=300&title_color=58A6FF&icon_color=1f6feb&text_color=c9d1d9" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api?username=Sinprakhar01&show_icons=true&hide_border=true&bg_color=ffffff&hide_rank=true&custom_title=GitHub%20Stats&cache_seconds=300&title_color=0969da&icon_color=0969da&text_color=24292f" alt="GitHub stats" />
 </picture></td>
 <td align="center" valign="middle" width="50%"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&hide_border=true&bg_color=00000000&layout=pie&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5&cache_seconds=300&title_color=58A6FF&icon_color=1f6feb&text_color=c9d1d9" />
-<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&hide_border=true&bg_color=00000000&layout=pie&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5&cache_seconds=300&title_color=0969da&icon_color=0969da&text_color=24292f" alt="Most used languages pie chart" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&hide_border=true&bg_color=0d1117&layout=pie&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5&cache_seconds=300&title_color=58A6FF&icon_color=1f6feb&text_color=c9d1d9" />
+<img src="https://github-readme-stats-prakhar2026.vercel.app/api/top-langs/?username=Sinprakhar01&hide_border=true&bg_color=ffffff&layout=pie&langs_count=8&card_width=420&size_weight=0.5&count_weight=0.5&cache_seconds=300&title_color=0969da&icon_color=0969da&text_color=24292f" alt="Most used languages pie chart" />
 </picture></td>
 </tr>
 </table>
@@ -110,8 +110,8 @@ Food-nutrient calculator that turns everyday meals into actionable nutrition ins
 
 <a href="https://github.com/Sinprakhar01?tab=overview">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_title=true" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&hide_border=true&bg_color=00000000&color=24292f&line=1f6feb&point=24292f&area=true&hide_title=true" alt="Contribution activity graph" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_title=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sinprakhar01&hide_border=true&bg_color=ffffff&color=24292f&line=1f6feb&point=24292f&area=true&hide_title=true" alt="Contribution activity graph" />
 </picture>
 </a>
 
