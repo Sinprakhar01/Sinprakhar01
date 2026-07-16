@@ -1,0 +1,48 @@
+name: KAIROS live telemetry
+
+# Renders the README "Agent Status" panel from real GitHub data.
+# Output goes to the `kairos-output` branch as a single force-pushed
+# commit: main history stays clean and repo size stays bounded.
+# These scheduled commits also keep the repo active, so GitHub never
+# auto-disables scheduled workflows (60-day inactivity rule).
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/kairos_status.py
+      - .github/workflows/kairos.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kairos
+  cancel-in-progress: true
+
+jobs:
+  telemetry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate live status SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/kairos_status.py --out out
+
+      - name: Publish to kairos-output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd out
+          git init -b kairos-output
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "KAIROS telemetry sync [skip ci]"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" kairos-output
