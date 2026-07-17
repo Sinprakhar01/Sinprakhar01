@@ -4,13 +4,23 @@ KAIROS live telemetry generator.
 
 Renders the "Agent Status" terminal panel on the profile README as SVG
 (dark + light variants) using REAL data from the GitHub API — no
-hand-typed numbers. Runs on a schedule via .github/workflows/kairos.yml
+hand-typed metrics. Runs on a schedule via .github/workflows/kairos.yml
 and publishes to the `kairos-output` branch (single force-pushed commit,
 so main history stays clean and repo size stays bounded).
 
+Honesty rules this panel lives by:
+  - Every metric is fetched at render time; the panel prints its own
+    last-sync timestamp instead of promising a refresh cadence
+    (GitHub throttles scheduled workflows, so cadence is best-effort).
+  - Profile machinery (this repo, the github-readme-stats fork) never
+    headlines `last_push` — telemetry should surface real work, not
+    work on the telemetry.
+  - A stale `last_push` (>45 days) is omitted rather than advertised.
+  - The mission line is data too: it comes from scripts/mission.json,
+    which is edited by a human and versioned in main.
+
 Data sources (all live):
-  - /users/{USER}                      -> followers, public repo count
-  - /users/{USER}/repos                -> own non-fork repos: stars, last push
+  - /users/{USER}/repos                -> own non-fork repos: last push
   - repo languages endpoints           -> real language mix (by bytes)
   - GraphQL contributionsCollection    -> commits in the last 7 days
     (falls back to the public events API when no token is available)
@@ -30,9 +40,29 @@ from xml.sax.saxutils import escape
 USER = "Sinprakhar01"
 API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
-FOCUS = "coding-agent evals · SWE-bench · industrial NLP · generative vision"
-REFRESH_NOTE = "auto-refreshes every 30 min"
 
+# Repos that exist to power this profile. Real work never happens here,
+# so they are barred from headlining the ACTIVITY section.
+MACHINERY = {USER.lower(), "github-readme-stats"}
+
+# last_push older than this is hidden instead of displayed.
+STALE_DAYS = 45
+
+MISSION_FILE = os.path.join(os.path.dirname(__file__), "mission.json")
+MISSION_FALLBACK = {
+    "focus": "AI systems · applied ML",
+    "mission": "exploring the search space",
+    "status": "QUEUED",
+}
+
+
+def load_mission() -> dict:
+    try:
+        with open(MISSION_FILE, encoding="utf-8") as fh:
+            data = json.load(fh)
+        return {**MISSION_FALLBACK, **{k: v for k, v in data.items() if v}}
+    except (OSError, ValueError):
+        return dict(MISSION_FALLBACK)
 
 
 def _request(url: str, payload: dict | None = None):
@@ -50,8 +80,6 @@ def _request(url: str, payload: dict | None = None):
 
 def gh(path: str):
     return _request(f"{API}{path}")
-
-
 
 
 def relative_time(iso: str, now: dt.datetime) -> str:
@@ -125,32 +153,43 @@ def language_mix(repos: list) -> list:
     return [(lang, pct) for lang, pct in mix if pct >= 1]
 
 
+def latest_real_push(repos: list, now: dt.datetime):
+    """Most recent push to a non-machinery repo (forks included: eval-harness
+    work happens there). Returns (name, when) or (None, None) when everything
+    recent is machinery or the freshest push is older than STALE_DAYS —
+    a stale timestamp is worse than no timestamp."""
+    candidates = [r for r in repos if r["name"].lower() not in MACHINERY]
+    if not candidates:
+        return None, None
+    last = max(candidates, key=lambda r: r["pushed_at"])
+    pushed = dt.datetime.fromisoformat(last["pushed_at"].replace("Z", "+00:00"))
+    if (now - pushed).days > STALE_DAYS:
+        return None, None
+    return last["name"], relative_time(last["pushed_at"], now)
+
+
 def collect():
     now = dt.datetime.now(dt.timezone.utc)
-    user = gh(f"/users/{USER}")
     repos = gh(f"/users/{USER}/repos?per_page=100&type=owner")
     own = [
         r
         for r in repos
         if not r["fork"] and r["name"].lower() != USER.lower()
     ]
-    # Recency counts pushes to forks too (eval-harness work happens there),
-    # but stars/languages stay fork-free so nothing is inflated.
-    pushable = [r for r in repos if r["name"].lower() != USER.lower()]
-    last = max(pushable, key=lambda r: r["pushed_at"])
+    push_repo, push_when = latest_real_push(repos, now)
     commits7, repos7 = commits_last_7d(now)
+    mission = load_mission()
     return {
         "sync": now.strftime("%Y-%m-%d %H:%M UTC"),
-        "followers": user["followers"],
-        "public_repos": user["public_repos"],
-        "stars": sum(r["stargazers_count"] for r in own),
-        "last_push_repo": last["name"],
-        "last_push_when": relative_time(last["pushed_at"], now),
+        "last_push_repo": push_repo,
+        "last_push_when": push_when,
         "commits_7d": commits7,
         "repos_7d": repos7,
         "langs": language_mix(own),
+        "focus": mission["focus"],
+        "mission": mission["mission"],
+        "mission_status": str(mission["status"]).upper()[:12],
     }
-
 
 
 THEMES = {
@@ -201,7 +240,7 @@ def render(theme_name: str, d: dict) -> str:
         )
         y += 20
 
-    def bar(label: str, pct: int, color: str, suffix: str = "", suffix_color=None):
+    def bar(label: str, pct: int, color: str):
         nonlocal y
         bar_x, bar_w, bar_h = VAL_X, 220, 8
         by = y - 9
@@ -218,11 +257,9 @@ def render(theme_name: str, d: dict) -> str:
             f'<rect x="{bar_x}" y="{by}" width="{fill_w}" height="{bar_h}" '
             f'rx="4" fill="{color}"/>'
         )
-        tail = f"{pct}%" + (f"  {suffix}" if suffix else "")
         parts.append(
             f'<text x="{bar_x + bar_w + 14}" y="{y}" font-family="{FONT}" '
-            f'font-size="13" fill="{suffix_color or t["text"]}" '
-            f'xml:space="preserve">{escape(tail)}</text>'
+            f'font-size="13" fill="{t["text"]}" xml:space="preserve">{pct}%</text>'
         )
         y += LINE_H
 
@@ -233,39 +270,39 @@ def render(theme_name: str, d: dict) -> str:
         )
 
     text([("$ ", t["green"]), ("kairos status --live", t["text"])])
-    text([(f"sync {d['sync']}  ·  {REFRESH_NOTE}", t["dim"])])
+    text([(f"last sync {d['sync']}  ·  rendered from the GitHub API", t["dim"])])
     sep()
     text([("FOCUS", t["blue"])])
-    text([(FOCUS, t["text"])], x=KEY_X)
+    text([(d["focus"], t["text"])], x=KEY_X)
     sep()
-    text([("ACTIVITY", t["blue"]), ("   (live from the GitHub API)", t["dim"])])
-    kv(
-        t["green"], "last_push",
-        [(d["last_push_repo"], t["text"]), (f"  ·  {d['last_push_when']}", t["dim"])],
-    )
-    repo_word = "repo" if d["repos_7d"] == 1 else "repos"
-    kv(
-        t["green"], "commits_7d",
-        [(f"{d['commits_7d']} commits", t["text"]),
-         (f"  ·  {d['repos_7d']} {repo_word}  ·  last 7 days", t["dim"])],
-    )
+    text([("ACTIVITY", t["blue"]), ("   (live · profile machinery excluded)", t["dim"])])
+    if d["last_push_repo"]:
+        kv(
+            t["green"], "last_push",
+            [(d["last_push_repo"], t["text"]),
+             (f"  ·  {d['last_push_when']}", t["dim"])],
+        )
+    if d["commits_7d"] > 0:
+        repo_word = "repo" if d["repos_7d"] == 1 else "repos"
+        kv(
+            t["green"], "commits_7d",
+            [(f"{d['commits_7d']} commits", t["text"]),
+             (f"  ·  {d['repos_7d']} {repo_word}  ·  last 7 days", t["dim"])],
+        )
+    else:
+        kv(
+            t["amber"], "commits_7d",
+            [("0 public commits", t["text"]),
+             ("  ·  heads-down week", t["dim"])],
+        )
     for lang, pct in d["langs"]:
         bar(lang, pct, t["blue"])
     sep()
-    text([("RESOURCES", t["blue"])])
+    status = d["mission_status"]
+    status_color = t["green"] if status == "ACTIVE" else t["amber"]
     text(
-        [(f"{'followers':<14}", t["dim"]), (str(d["followers"]), t["text"]),
-         ("      ", t["text"]),
-         ("stars_earned  ", t["dim"]), (str(d["stars"]), t["text"]),
-         ("      ", t["text"]),
-         ("public_repos  ", t["dim"]), (str(d["public_repos"]), t["text"])],
-        x=KEY_X,
-    )
-    bar("coffee", 21, t["amber"], "[REFILL REQUIRED]", t["amber"])
-    sep()
-    text(
-        [("● ", t["amber"]), (f"{'next_mission':<14}", t["dim"]),
-         ("exploring...", t["text"]), ("   [QUEUED]", t["amber"])]
+        [("● ", status_color), (f"{'mission':<14}", t["dim"]),
+         (d["mission"], t["text"]), (f"   [{status}]", status_color)]
     )
     prompt_y = y
     text([("$ ", t["green"])])
@@ -297,8 +334,6 @@ def render(theme_name: str, d: dict) -> str:
         f'rx="10" fill="{t["bg"]}" stroke="{t["border"]}"/>'
         f"{chrome}{''.join(parts)}{cursor}</svg>"
     )
-
-
 
 
 def main() -> int:

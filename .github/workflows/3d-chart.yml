@@ -1,13 +1,20 @@
 name: Generate 3D contribution chart
 
+# Renders the two chart variants the README actually uses and force-pushes
+# them to the `chart-output` branch — same pattern as kairos.yml, so main
+# history stays free of bot commits and repo size stays bounded.
+
 on:
   schedule:
-    # Runs every 6 hours
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: 3d-chart
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -21,22 +28,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      # Post-processes the SVGs the action emits: removes the bottom-left
-      # donut legend (the <g> at translate(40, 520)), strips date-range
-      # labels, and paints a solid per-theme background (night-* variants
-      # get GitHub dark #0d1117, the rest get white). Solid backgrounds
-      # keep charts legible even when the OS color scheme and the GitHub
-      # theme disagree — prefers-color-scheme follows the OS, so the
-      # "wrong" variant can load and must stand on its own. The
-      # coordinates and regexes are tied to the output layout of
-      # github-profile-3d-contrib@0.7.1 — if the action version is bumped
-      # and the layout shifts, the warnings below fire instead of
-      # silently corrupting (or silently skipping) the charts.
+      # Post-processes the two SVGs the README embeds: removes the
+      # bottom-left donut legend (the <g> at translate(40, 520)), strips
+      # date-range labels, and paints a solid per-theme background
+      # (night-view gets GitHub dark #0d1117, green-animate gets white).
+      # Solid backgrounds keep charts legible even when the OS color
+      # scheme and the GitHub theme disagree — prefers-color-scheme
+      # follows the OS, so the "wrong" variant can load and must stand
+      # on its own. The coordinates and regexes are tied to the output
+      # layout of github-profile-3d-contrib@0.7.1 — if the action version
+      # is bumped and the layout shifts, the warnings below fire instead
+      # of silently corrupting (or silently skipping) the charts.
       - name: Clean charts (donut, date, theme bg)
         run: |
           python3 - <<'EOF'
-          import re, glob
-          for p in glob.glob('profile-3d-contrib/*.svg'):
+          import re
+          for p in ('profile-3d-contrib/profile-night-view.svg',
+                    'profile-3d-contrib/profile-green-animate.svg'):
               s = open(p).read()
               m = s.find('<g transform="translate(40, 520)">')
               if m >= 0:
@@ -61,11 +69,17 @@ jobs:
               open(p, 'w').write(s)
           EOF
 
-      - name: Commit and push chart
+      - name: Publish to chart-output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          mkdir -p out
+          cp profile-3d-contrib/profile-night-view.svg out/
+          cp profile-3d-contrib/profile-green-animate.svg out/
+          cd out
+          git init -b chart-output
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A profile-3d-contrib/
-          git commit -m "Update 3D contribution chart [skip ci]" || echo "no changes"
-          git pull --rebase origin main
-          git push origin main
+          git add -A
+          git commit -m "3D chart sync [skip ci]"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" chart-output
